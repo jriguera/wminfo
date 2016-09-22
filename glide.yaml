@@ -1,0 +1,12 @@
+package: .
+import:
+- package: github.com/vmware/govmomi
+  version: ~0.9.0
+  subpackages:
+  - find
+  - property
+  - vim25/mo
+  - vim25/types
+- package: golang.org/x/net
+  subpackages:
+  - context
